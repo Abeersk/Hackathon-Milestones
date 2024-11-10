@@ -1,0 +1,87 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+
+body {
+    background-color: #2085ad;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+    color: #1e90ff; /* Bright Blue */
+}
+
+.profile-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    border: 3px solid #1e90ff; /* Bright Blue Border */
+     
+}
+
+header h3 {
+    font-size: 1.1em;
+    color: #555;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    background: linear-gradient(135deg, #1e90ff, #ff6f61); /* Gradient Background */
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+ul {
+    padding: 0;
+    list-style: none; /* Remove default bullets */
+}
+
+li {
+    margin-top: 10px;
+    margin-bottom: 8px;
+    margin-left: 8px;
+    color: #666; /* Darker Gray Text */
+}
+
+#skills ul, .education p {
+    line-height: 1.6;
+}
+
+.work-experience h4 {
+    font-size: 1.1em;
+    color: #eea010; /* Coral Color */
+}
+
+h4 {
+    margin-top: 10px;
+}
+
+.education h3 {
+    margin-top: 10px;
+    color: #1e90ff; /* Bright Blue */
+}
